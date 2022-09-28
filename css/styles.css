@@ -1,0 +1,135 @@
+body {
+    font-family: 'Montserrat';
+}
+#title {
+    background-color: #ff4c68;
+    padding:3% 15% 10%;
+}
+
+#features{
+    background-color: white;
+    position: relative;
+
+}
+/* cta region */
+#cta>button{
+    margin-right:25px;
+}
+#cta>h3{
+    font-family: 'Montserrat';
+    font-weight: 800;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+    width: 65%;
+    margin: 0 auto 80px;
+}
+#cta{
+    background-color:#ff4c68;
+    text-align:center;
+    padding: 150px 0px;
+}
+#footer{
+    text-align:center;
+    padding: 150px 10px;
+}
+#footer>i{
+    margin-right: 15px;
+}
+#footer>p{
+    padding: 5px;
+}
+#testimonials{
+
+    background-color:#ef8172;
+    color:white;
+    text-align:center;
+}
+
+#press{
+    background-color:#ef8172;
+    text-align:center;
+}
+.navbar{
+    margin:0 0 2.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2.5rem !important;
+}
+.caption {
+    font-family: 'Montserrat';
+    font-weight: 800; 
+    line-height: 1.5;
+    font-size:  2.5rem;
+    color:white;
+    margin-top: 20%;
+    margin-bottom:8%;
+}
+
+.rotated {
+    width: 30% !important;
+    transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+    position: absolute !important; 
+    
+  }
+  .nav-item{
+    padding-left:5px !important;
+    padding-right:18px !important;
+}
+.link-light:hover{
+
+    color:black !important;
+}
+.add_bold_weight{
+    font-weight: 800;
+}
+.line_height{
+    font-size: 0.75rem;
+    width:50%;
+    margin: 0 auto;
+
+    color: #8f8f8f;
+}
+.change_color{
+    color: red;
+}
+.change_color:hover{
+    color: #8f8f8f;
+/* background-color:rebeccapurple; */
+}
+.carousel-item{
+    font-family: 'Montserrat';
+    font-weight: 800; 
+    line-height: 1.5;
+    font-size:2rem;
+    padding:10% 10% 5% 10%;
+
+    text-align:center;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.dogimage{
+    border-radius: 100%;
+    width:10%;
+}
+
+.pres-image{
+    margin-bottom:5%;
+    margin-top: 5%;
+    width:15%;
+}
+@media (max-width:1000px) {
+    #title{
+        text-align:center;
+    }
+    .rotated{
+        position:static !important;
+        transform: rotate(0);
+        
+
+    }
+}
+
+
